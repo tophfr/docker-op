@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+
+ debian:
+    image: tophfr/op
+    build:
+      context: build
+    network_mode: none
+
+ alpine:
+    image: tophfr/op:alpine
+    build:
+      context: build
+    network_mode: none
