@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-ENV OP_VERSION 0.6.1
+ENV OP_VERSION 0.6.2
 RUN buildDeps="curl gnupg dirmngr unzip" \
     && runDeps="ca-certificates" \
     && apt-get update \

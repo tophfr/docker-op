@@ -4,6 +4,11 @@ Here is an unofficial Dockerfile for the [1Password command-line tool][ophomepag
 
 It is available on [docker hub][dockerhubpage] based on [Debian][debianhubpage] and using the last available release from the official [1Password CLI download page][opdlpage].
 
+## Changelog
+
+- 2019-10-22 Upgrading 1Password CLI to 0.6.2
+- 2019-09-19 Initial version: 1Password CLI v0.6.1 on Alpine Linux to 3.10
+
 ## run with docker run
 
     docker run --rm -it tophfr/op
