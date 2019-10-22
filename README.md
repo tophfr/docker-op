@@ -7,7 +7,7 @@ It is available on [docker hub][dockerhubpage] based on [Debian][debianhubpage] 
 ## Changelog
 
 - 2019-10-22 Upgrading 1Password CLI to 0.6.2
-- 2019-09-19 Initial version: 1Password CLI v0.6.1 on Alpine Linux to 3.10
+- 2019-09-19 Initial version: 1Password CLI v0.6.1 on Debian Buster
 
 ## run with docker run
 
