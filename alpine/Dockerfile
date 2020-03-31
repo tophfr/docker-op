@@ -1,6 +1,6 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
-ENV OP_VERSION 0.6.2
+ENV OP_VERSION 0.9.4
 RUN apk add --no-cache ca-certificates \
     && apk add --no-cache --virtual .build-deps gnupg \
     && cd /root \
