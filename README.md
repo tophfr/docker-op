@@ -6,6 +6,7 @@ It is available on [docker hub][dockerhubpage] based on [Debian][debianhubpage] 
 
 ## Changelog
 
+- 2020-04-01 Upgrading 1Password CLI to 0.9.3
 - 2020-02-29 Upgrading 1Password CLI to 0.9.2
 - 2020-02-29 Upgrading 1Password CLI to 0.9.1
 - 2020-02-29 Upgrading 1Password CLI to 0.9.0
