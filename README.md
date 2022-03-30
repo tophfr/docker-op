@@ -2,10 +2,11 @@
 
 Here is an unofficial Dockerfile for the [1Password command-line tool][ophomepage].
 
-It is available on [docker hub][dockerhubpage] based on [Debian][debianhubpage] and using the last available release from the official [1Password CLI download page][opdlpage].
+It is available on [docker hub][dockerhubpage] based on [Debian][debianhubpage] and [Alpine][alpinehubpage] using the last available release from the official [1Password CLI download page][opdlpage].
 
 ## Changelog
 
+- 2022-03-30 Upgrading 1Password CLI to 2.0.0
 - 2020-04-01 Upgrading 1Password CLI to 0.9.4
 - 2020-04-01 Upgrading 1Password CLI to 0.9.3
 - 2020-02-29 Upgrading 1Password CLI to 0.9.2
@@ -38,8 +39,8 @@ Add this line to you `.bashrc`:
 
 then just run `op` like you would with a standard install (without docker) from a new bash session.
 
-  [ophomepage]: https://support.1password.com/command-line-getting-started "1Password command-line tool"
-  [opdlpage]: https://app-updates.agilebits.com/product_history/CLI "1Password CLI downloads"
+  [ophomepage]: https://developer.1password.com/docs/cli/get-started "1Password command-line tool"
+  [opdlpage]: https://app-updates.agilebits.com/product_history/CLI2 "1Password CLI downloads"
   [dockerhubpage]: https://hub.docker.com/r/tophfr/op "1Password CLI (op) hub page"
   [debianhubpage]: https://hub.docker.com/_/debian "Docker Official Images hub page"
-
+  [alpinehubpage]: https://hub.docker.com/_/alpine "Docker Official Images hub page"
